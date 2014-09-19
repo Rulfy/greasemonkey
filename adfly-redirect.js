@@ -6,8 +6,8 @@
 // @version     1
 // @grant       none
 // @run-at document-end
-// @downloadURL https://github.com/Rulfy/greasemonkey/blob/master/adfly.-redirect.js
-// @updateURL https://github.com/Rulfy/greasemonkey/blob/master/adfly.-redirect.js
+// @downloadURL https://github.com/Rulfy/greasemonkey/blob/master/adfly-redirect.js
+// @updateURL https://github.com/Rulfy/greasemonkey/blob/master/adfly-redirect.js
 // ==/UserScript==
 var url = document.URL;
 
