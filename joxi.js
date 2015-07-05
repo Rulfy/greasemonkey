@@ -9,6 +9,7 @@
 // ==/UserScript==
 var directUrl = $('meta[property="og:image"]').attr('content')
 $('#input11').val(directUrl);
+$('#input11').next().next().find('span').attr('data-link',directUrl);
 
 /*var tempHtml = $('<div/>').html($('#input12').val());
 alert(tempHtml.val());
