@@ -2,6 +2,7 @@
 // @name        shortsnews redirect
 // @namespace   rulfy
 // @description Redirecting shortnews.de links to the target site.
+// @include     http://shortnews.de/beamto/*
 // @include     http://www.shortnews.de/beamto/*
 // @version     1
 // @grant       none
