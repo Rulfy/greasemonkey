@@ -8,5 +8,7 @@
 // @grant       none
 // @run-at document-end
 // ==/UserScript==
-var url = $('#source-url').html();
-window.location = url.substring(5);
+var url = $('#source-iframe').attr("src");
+window.location = url;
+//var url = $('#source-url').html();
+//window.location = url.substring(5);
